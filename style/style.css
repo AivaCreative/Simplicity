@@ -1,0 +1,478 @@
+* {
+   padding: 0;
+   margin: 0; 
+}
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #96b7be;
+    padding: 25px;
+}
+.simplicity {
+    background: #96b7be;
+}
+.logo {
+    float: left;
+    width: calc(50% - 20px);
+}
+.logo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.simplicity-ul {
+    display: flex;
+    justify-content: end;
+    width: 50%; 
+}
+.simplicity-ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.simplicity-ul a {
+    text-decoration: none;
+    color: #212a2c;
+}
+.simplicity-ul li {
+    float: right;
+    overflow: hidden;
+    border-left: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Verdana;
+    font-size: 9pt;
+    line-height: 1.5;
+}
+.simplicity-ul li a {
+    font-family: Georgia;
+    font-size: 11pt;
+}
+
+
+
+
+.Egetet-info {
+    background: #cbdde1;
+    padding: 20px;
+}
+.Egetet:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.box-Egetet {
+    float: left;
+    width: 50%;
+    width: calc(50% - 20px);
+    padding-right: 20px;
+}
+.text {
+    float: left;
+    width: 50%;
+    width: calc(50% - 20px);
+    padding-right: 20px;
+    vertical-align: bottom;
+}
+
+.text h1 {
+    color: white;
+    font-size: 36pt;
+    border-bottom: 1px solid #a4c4ca;
+    padding-bottom: 10px;
+    font-family: Georgia;
+    font-size: 26pt;
+}
+.text p {
+    padding-top: 10px;
+    color: #446973;
+    padding-bottom: 20px;
+    font-family: Verdana;
+    font-size: 9pt;
+    line-height: 1.8;
+}
+.text h2 {
+    color: #305f66;
+    border: 1px solid #a4c4ca;
+    padding-top: 10px;
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 16pt;
+}
+.text a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.text i {
+    margin: 15px;
+}
+
+
+
+.lipsum {
+    padding: 20px;
+    border-bottom: 1px solid #a4c4ca;
+    color: #666666;
+}
+.lipsum:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.lipsum-data {
+    float: left;
+    width: 25%;
+    width: calc(25% - 20px);
+    padding-right: 20px;
+}
+.lipsum-data h2 {
+    font-family: Georgia;
+}
+.lipsum-data p {
+    padding-top: 20px;
+    border-bottom: 1px solid #a4c4ca;
+    padding-bottom: 20px;
+    font-family: Verdana;
+    font-size: 9pt;
+}
+.lipsum-box {
+    padding-top: 20px;
+}
+
+
+
+.psd-templete {
+    color: #777777;
+    padding: 20px;
+}
+.psd-templete:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.about-templete {
+    float: left;
+    width: calc(66.6% - 30px);
+}
+.about-templete h1
+{
+    font-family: Georgia;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a4c4ca;
+    color: #666666;
+}
+.template-hiding u {
+    color: #26575e;
+}
+.template-hiding {
+    padding-top: 10px;
+    font-family: Verdana;
+    font-size: 9pt;
+}
+
+
+.Nullamlacus {
+    float: right;
+    width: 33.3%;
+    padding-top: 10px;
+    
+}
+.Nullamlacus-dui {
+    float: left;
+    overflow: hidden;
+    border-bottom: 1px solid #a4c4ca;
+    padding-bottom: 10px;
+}
+.Nullamlacus-dui strong {
+    font-family: Georgia;
+    font-size: 13pt;
+    padding: 15px;
+    float: right;
+}
+ .Nullamlacus p {
+    padding-top: 10px;
+}
+.Nullamlacus-text {
+    font-family: Verdana;
+    font-size: 9pt;
+}
+.Nullamlacus-text a {
+    
+    text-align: right;
+    color: #26575e;
+    text-decoration: none;
+}
+.Nullamlacus-text h5 {
+    padding-top: 5px;
+}
+
+
+
+
+.footer-area {
+    background: #cfe1e1;
+}
+.footer-section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.footer-section {
+    background: #cfe1e1;
+    padding: 20px;
+    opacity: 90%;
+}
+
+.footer-section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-section h2 {
+    color: #666666;
+    border-bottom: 1px solid #666666; 
+}
+.footer-section a {
+    text-decoration: none;
+}
+.footer-menu {
+    float: left;
+    padding-right: 20px;
+    width: calc(33.3% - 20px);
+}
+.footer-menu h2 {
+    color: #666666;
+}
+.footer-menu ul {
+    padding-top: 10px;
+}
+.footer-menu li {
+    list-style: none;
+    padding-top: 10px;
+    font-family: Verdana;
+    font-size: 8pt;
+}
+.footer-menu a {
+    color: #58a6ff;
+}
+.footer-menu a button{
+    color: #000;
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.footer-menu input {
+    padding: 5px;
+    border: none;
+}
+.footer-menu button {
+    padding: 5px;
+    border: none;
+    color: #000000;
+}
+
+
+.shorcuts {
+    float: left;
+    padding-right: 20px;
+    width: calc(33.3% - 20px);
+}
+.shorcuts ul {
+    padding-top: 10px;
+}
+.shorcuts li {
+    list-style: none;
+    font-family: Verdana;
+    font-size: 8pt;
+    padding-top: 10px;
+}
+.shorcuts li a {
+    color: #5c2a2a;
+}
+
+
+.Details {
+    float: left;
+    padding-right: 20px;
+    width: calc(33.3% - 20px);
+}
+.Details ul {
+    padding-top: 10px;
+}
+.Details  li{
+    list-style: none;
+    font-family: Verdana;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+.mini-footer-area {
+    background: #054451;
+}
+.mini-footer {
+    color: white;
+    font-family: Verdana;
+    font-size: 9pt;
+}
+.mini-footer span {
+    overflow: hidden;
+    /* width: calc(50% - 20px);   */
+}
+.mini-footer p {
+    float: right;
+}
+
+
+/* Header */
+
+@media only screen and (max-width: 1023px)
+{
+    .logo {
+        width: 100% ;
+    } 
+}
+@media only screen and (max-width: 1023px)
+{
+    .simplicity-ul {
+        width: 100% ;
+    } 
+}
+@media only screen and (max-width: 767px)
+{
+    .logo {
+        width: 100% ;
+    } 
+}
+@media only screen and (max-width: 767px)
+{
+    .simplicity-ul {
+        width: 100% ;
+    } 
+}
+
+
+/* Egetet */
+@media only screen and (max-width: 1023px)
+{
+    .box-Egetet {
+        width: 50% ;
+    } 
+}
+
+
+@media only screen and (max-width: 1023px)
+{
+    .text {
+        width: 50%;
+    } 
+
+    .lipsum-data {
+        width: calc(50% - 20px);
+
+    } 
+}
+
+@media only screen and (max-width: 767px)
+{
+    .box-Egetet  {
+        a {
+            img {
+                width: 100%;
+            }
+        }
+        
+    } 
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .text {
+        width: 100%;
+    } 
+}
+
+/* Lipsum */
+@media only screen and (max-width: 1023px)
+{
+    .lipsum-data {
+        width: calc(50% - 20px);
+
+    } 
+}
+
+@media only screen and (max-width: 767px)
+{
+    .lipsum-data {
+        width: calc(100% - 20px);
+        
+    } 
+}
+/* PSD Templete */
+@media only screen and (max-width: 1023px)
+{
+    .about-templete {
+        width: calc(100% - 30px);
+    } 
+}
+
+@media only screen and (max-width: 1023px)
+{
+    .Nullamlacus {        
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 767px)
+{
+    .about-templete {
+        width: calc(100% - 30px);
+    } 
+}
+
+@media only screen and (max-width: 767px)
+{
+    .Nullamlacus {        
+        width: 100%;
+    } 
+}
+
+
+/* Footer Section */
+@media only screen and (max-width: 1023px)
+{
+    .footer-menu {
+        width: calc(50% - 20px);
+        
+    } 
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .footer-menu {
+        width: calc(100% - 20px);
+        
+    } 
+}
+
+
+/* Mini Footer */
+@media only screen and (max-width: 1023px)
+{
+    .mini-footer {
+        width: calc(80% - 20px);
+    } 
+}
+
+@media only screen and (max-width: 767px)
+{
+    .mini-footer {        
+        width: calc(100% - 20px);
+    } 
+}
